@@ -58,7 +58,7 @@ body {
 .container {
     display: flex;
     margin-left: 30%;
-    margin-bottom: -10%;
+    /* margin-bottom: -10%; */
 }
 
 .grid-item {
@@ -73,4 +73,36 @@ body {
 .container .selected {
     background-color: #ffeeee;
     border: 2px solid #ff5959;
+}
+
+/* 
+try code here about donate today */
+
+
+/* Donate plan */
+
+.donation-plan {
+    display: flex;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 5%;
+}
+
+#food {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#education {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.donation-ways {
+
+    margin: 2%;
+    padding-left: 20px;
+
 }
