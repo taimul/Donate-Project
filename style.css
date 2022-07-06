@@ -42,6 +42,10 @@ p {
     border-radius: 5px;
 }
 
+.donate-btn:hover {
+    cursor: pointer;
+}
+
 .donate-text {
     margin: 0 auto;
     display: block;
@@ -84,6 +88,7 @@ p {
 /* 
 try code here about donate today */
 input {
+    outline: none;
     border: none;
     text-align: center;
 }
@@ -130,6 +135,24 @@ input {
 
 }
 
+.container-events {
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.read-more {
+    color: #e4d01a;
+}
+
+.read-more:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+
 .subscription-option {
     background-color: #FFF4D6;
     padding: 70px;
@@ -142,6 +165,7 @@ input {
 .subscription-option .email-input {
     height: 44px;
     width: 50%;
+    margin: -5px;
 }
 
 footer {
