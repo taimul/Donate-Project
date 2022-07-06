@@ -77,6 +77,20 @@ body {
 
 /* 
 try code here about donate today */
+input {
+    border: none;
+    text-align: center;
+}
+
+.form-input p {
+    border-bottom: 1px solid gray;
+    width: 40%;
+    display: inline-block;
+}
+
+.form-input {
+    text-align: center;
+}
 
 
 /* Donate plan */
@@ -85,19 +99,22 @@ try code here about donate today */
     display: flex;
     margin-left: 18%;
     margin-right: 18%;
-    padding: 5%;
+
 }
 
 #food {
     background-color: rgba(79, 157, 166, 0.1);
+    padding: 35px;
 }
 
 #shelter {
     background-color: rgba(255, 89, 89, 0.1);
+    padding: 35px;
 }
 
 #education {
     background-color: rgba(255, 244, 214, 1);
+    padding: 35px;
 }
 
 .donation-ways {
@@ -105,4 +122,12 @@ try code here about donate today */
     margin: 2%;
     padding-left: 20px;
 
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    margin: 0 auto;
 }
