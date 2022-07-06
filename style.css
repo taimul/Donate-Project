@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.banner-image {
+    background-image: url(/images/donation13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.banner-text {
+    color: white;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 130px;
+}
+
+.banner-text h1 {
+    font-size: 60px;
+}
+
+.banner-text a {
+    text-decoration: none;
+}
