@@ -9,7 +9,6 @@ body {
     background-size: cover;
 }
 
-
 .banner-text {
     color: white;
     margin: 0 auto;
@@ -18,10 +17,60 @@ body {
     padding: 130px;
 }
 
+.banner-text p {
+    font-size: 20px;
+}
+
 .banner-text h1 {
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
     font-size: 60px;
 }
 
-.banner-text a {
+.donate-btn {
     text-decoration: none;
+    background-color: #ff5959;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+.donate-text {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 60px;
+}
+
+.donate-text h2 {
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.donate-text p {
+    font-size: 20px;
+    margin-bottom: -2%;
+}
+
+.container {
+    display: flex;
+    margin-left: 30%;
+    margin-bottom: -10%;
+}
+
+.grid-item {
+    background-color: #fafafa;
+    border: 1px solid #fafafa;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container .selected {
+    background-color: #ffeeee;
+    border: 2px solid #ff5959;
 }
